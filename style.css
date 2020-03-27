@@ -1,0 +1,126 @@
+
+body,html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+   background: url(https://wallpaperaccess.com/full/415831.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+
+.title{
+	font-family: 'Gochi Hand', cursive;
+	/*margin: 20px;*/
+	color: #ffff00;
+	font-size: 4em;
+}
+
+h1{
+	font-size: 4em;
+	color: 
+}
+
+
+a{
+	padding: 70px 0;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+a:link {
+  color: #ffff00;
+   text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #ffff00;
+   text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  	color:white;
+	 text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: red;
+   text-decoration: none;
+}
+
+.img{
+	height: 170px;
+  width: 170px;
+  border-radius: 10%;
+	margin-right: 50px;
+	
+	color: #ffff00;
+	background-color: silver;
+	border :none;
+	transition: all 1s;
+}
+
+.img:hover{
+	transform: scale(1.3);
+	color: #ffff00;
+}
+
+.imgAGN{
+                background: url(AGN.jpg) no-repeat;
+                background-size: 100%;
+                cursor:pointer;
+             
+            }
+
+.imgStars{
+                background: url(https://vignette.wikia.nocookie.net/newdcmovieuniverse/images/3/37/El-sol.jpg/revision/latest?cb=20131023220054) no-repeat;
+                
+                background-size: 100%;
+                cursor:pointer;
+                
+            }
+
+.imgPlanets{
+                background: url(Planet.jpg) no-repeat;
+               background-size: 100%;
+                cursor:pointer;
+                
+            }
+
+.imgClusters{
+
+ background: url(https://science.nasa.gov/science-red/s3fs-public/styles/image_gallery_scale_960w/public/atoms/m13s_3Block.jpg?itok=hWACEusA) no-repeat;
+               background-size: 100%;
+                cursor:pointer;
+}
+
+.imgGalaxies{
+ background: url(https://upload.wikimedia.org/wikipedia/commons/c/c4/Blackeyegalaxy.jpg) no-repeat;
+               background-size: 100%;
+                cursor:pointer;
+}
+
+
+.container {
+ /*width:950px;*/
+ display: flex;
+justify-content: space-between;
+
+text-align: center;	
+}
+
+.center{
+	padding: 70px 0;
+	text-align: center;
+}
+
+
+
